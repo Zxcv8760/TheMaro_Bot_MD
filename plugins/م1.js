@@ -1,6 +1,4 @@
 let handler = async (m, { conn, command, text }) => {
-let videoUrl = 'https://telegra.ph/file/3782975aafc54e78e9d0c.mp4'
-m.react('🗿')
 let love = `
 *⎔⋅• ┏╼╃✦⊰⟦𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⟧⊱✦╄╾┓ •⋅⎔*
 
