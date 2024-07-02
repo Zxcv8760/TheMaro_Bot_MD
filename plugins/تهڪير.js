@@ -4,9 +4,9 @@ const handler = async (m, { conn, command, text }) => {
   const loveDescription = isHighLove ? "" : "";
   const getRandomMessage = (messages) => messages[Math.floor(Math.random() * messages.length)];
   const response =
-    `✦•━━━━ ∘⊰🇸🇩⊱∘ ━━━━•✦\n` +
-    `${text} تـــم اخــتــراقــك بـنـجـاح ارســال بـيـانـاتـك لي بابلو🇨🇦` +
-    `\n✦•━━━━ ∘⊰🇸🇩⊱∘ ━━━━•✦` +
+    `*· • • ━ ╃✦⊰𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⊱✦╄ ━ • • ·*\n` +
+    `${text} تـــم اخــتــراقــك بـنـجـاح ارســال بـيـانـاتـك لي مــارو🐉` +
+    `\n*· • • ━ ╃✦⊰𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⊱✦╄ ━ • • ·*` +
     ``    
 
   async function loading() {

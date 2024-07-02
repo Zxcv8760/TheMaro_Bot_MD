@@ -3,7 +3,7 @@ let handler = async(m, { conn }) => {
 if (!db.data.chats[m.chat].stickers && m.isGroup) throw 0
 
 let nombre = '𝑯𝑬𝑵𝑹𝒀'
-let nombre2 = '𝑴𝑶𝑺𝑻𝑨𝑭𝑨 𝑴𝑶𝑯𝑨𝑴𝑬𝑫' 
+let nombre2 = '𝙈𝙑𝙍𝙊𝘽𝙊𝙏𝙈𝘿' 
 const s = [
 'https://telegra.ph/file/784a05acc195cdb35ca29.jpg',
 ];  

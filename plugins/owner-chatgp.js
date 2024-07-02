@@ -18,7 +18,7 @@ const handler = async (m, {conn, text, groupMetadata}) => {
   const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
   const name = await conn.getName(m.sender);
   const groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map((v) => v[0]);
-  const fakegif = {key: {participant: `0@s.whatsapp.net`, ...('6289643739077-1613049930@g.us' ? {remoteJid: '6289643739077-1613049930@g.us'} : {})}, message: {'videoMessage': {'title': '🐱⸽⃕NʏᴀɴCᴀᴛBᴏᴛ - MD🍁⃨፝⃕✰', 'h': `Hmm`, 'seconds': '99999', 'gifPlayback': 'true', 'caption': '𝑷𝑨𝑷𝑳𝑶ـ𝑫𝒊𝑽𝑬𝑳〆', 'jpegThumbnail': false}}};
+  const fakegif = {key: {participant: `0@s.whatsapp.net`, ...('6289643739077-1613049930@g.us' ? {remoteJid: '6289643739077-1613049930@g.us'} : {})}, message: {'videoMessage': {'title': '🐱⸽⃕NʏᴀɴCᴀᴛBᴏᴛ - MD🍁⃨፝⃕✰', 'h': `Hmm`, 'seconds': '99999', 'gifPlayback': 'true', 'caption': '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃〆', 'jpegThumbnail': false}}};
   const teks = `*🌺 • من جروب:* ${groupMetadata.subject}\n*🍀 • المطور:* ${name}\n*🍁 • الرقم:* wa.me/${who.split`@`[0]}\n*📧 • الرساله:* ${text}`;
   for (const id of groups) {
     await conn.sendMessage(id, {text: teks}, {quoted: fakegif});

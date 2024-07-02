@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {	
-if (!m.quoted) throw `*اعمل ريبلاي للرساله ال عاوزه تتمسح*`
+if (!m.quoted) throw `*اعـمـل ريـبـلاي لـلـمـسـج الـلـي عـاوز تـمـسـحـو*`
 try {
 let delet = m.message.extendedTextMessage.contextInfo.participant
 let bang = m.message.extendedTextMessage.contextInfo.stanzaId

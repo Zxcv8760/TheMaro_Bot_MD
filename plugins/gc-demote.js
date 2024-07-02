@@ -7,7 +7,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
     var number = text;
   }
 
-  if (!text && !m.quoted) return conn.reply(m.chat, `*[❗] الاستخدام المناسب لازالت الادمن*\n\n*┯┷*\n*┠≽ ${usedPrefix}تخفيض @منشن*\n*┠≽ ${usedPrefix}تخفيض -> رد علي الرساله*\n*┷┯*`, m);
+  if (!text && !m.quoted) return conn.reply(m.chat, `*[🗿] الاسـتـخـدام الـصـح لـلـخـفـض*\n\n*┯┷*\n*┠≽ ${usedPrefix}خفض @مـنـشـن*\n*┠≽ ${usedPrefix}خفض -> اعـمـل ريـبـلاي*\n*┷┯*`, m);
   if (number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `*[ ⚠️ ]  الرقم الذي تم إدخاله غير صحيح، الرجاء إدخال الرقم الصحيح*`, m);
 
   try {
@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
   } catch (e) {
   } finally {
     conn.groupParticipantsUpdate(m.chat, [user], 'demote');
-    conn.reply(m.chat, `*[ ✅ ] تم تنفيذ الأمر*`, m);
+    conn.reply(m.chat, `*[ 🗿 ] تـم يـحـب مـبـقـاش ادمـن*`, m);
   }
 };
 handler.help = ['*593xxx*', '*@usuario*', '*responder chat*'].map((v) => 'demote ' + v);

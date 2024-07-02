@@ -19,7 +19,7 @@ let handler = async (m, { command, text }) => m.reply(`*╔═╼─╾═【�
 *❈↲لملئ الإستمارة يرجى النسخ وملء الفراغات*
 *❈↲بعد ملئ الاستمارة منشن احد المشرفين*
 *❈↲يرجى ارفاق صورة للقب*
-*✦━━━━━[ *𝒁𝑨𝑪𝑲 𝑽𝒊𝑷乡* ]━━━━━✦`.trim(), null, m.mentionedJid ? {
+*✦━━━━━[ *𝙼𝚅𝚁𝙾-𝙱𝙾𝚃乡* ]━━━━━✦`.trim(), null, m.mentionedJid ? {
   mentions: m.mentionedJid
 } : {})
 

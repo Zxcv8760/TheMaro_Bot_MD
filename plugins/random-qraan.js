@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${lenguajeGB['smsContAdult']()}`
 let url = pies[Math.floor(Math.random() * pies.length)]
-conn.sendFile(m.chat, url, 'error.jpg', ` ♥ *استمع للراحه النفسيه* ♥                          𝑩𝒀 ™𝑷𝑨𝑷𝑳𝑶_𝑫𝒊𝑽𝑬𝑳〆                                                                           𝑻𝑯𝑬𝒁𝑨𝑪𝑲 𝑽𝒊𝑷乡𝑩𝑶𝑻-𝑴𝑫`, m)
+conn.sendFile(m.chat, url, 'error.jpg', ` ♥ *استمع للراحه النفسيه* ♥                          𝑩𝒀 ™𝙈𝙑𝙍𝙊𝘽𝙊𝙏-𝙈𝘿〆                                                                           𝙈𝙑𝙍𝙊𝘽𝙊𝙏-𝙈𝘿`, m)
 //conn.sendButton(m.chat, `♥ استمع للراحه النفسيه ♥ `, author, url, [['𝙎𝙄𝙂𝙐𝙄𝙀𝙉𝙏𝙀 | 𝙉𝙀𝙓𝙏 🆕', `/${command}`]], m)
 }
 handler.help = ['قران']

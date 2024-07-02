@@ -24,7 +24,7 @@ let str = `
 ⟣ *📱الرقم:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 ⟣ *🔗الرابط:* wa.me/${who.split`@`[0]}${registered ? '\n⟣ *🎈Age*: ' + age + ' years' : ''}
 
-*𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝒁𝑨𝑪𝑲_𝑩𝑶𝑻🙈*
+*𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑴𝑽𝑹𝑶_𝑩𝑶𝑻🙈*
 ⟣ *⚠️التحذيرات:* 0
 └──────────────`
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
