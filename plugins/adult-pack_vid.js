@@ -6,6 +6,7 @@ const handler = async (m, { conn, command, usedPrefix }) => {
   const db = datas.db; // تأكد من وجود قاعدة البيانات db والوصول إلى بيانات المستخدمين والمجموعات
   const idioma = db.data.users[m.sender].language; // استخدام قاعدة البيانات للحصول على لغة المستخدم
   const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`)); // تحميل ملف الترجمة
+await conn.sendMessage(m.chat, { react: { text: '🔞', key: m.key } })
   const tradutor = _translate.plugins.adult_pack_vid; // تعيين النصوص المترجمة
 
   // التحقق من حالة modohorny وإذا كانت مفعلة
@@ -29,13 +30,13 @@ const handler = async (m, { conn, command, usedPrefix }) => {
       const url4 = await videosxxxc[Math.floor(Math.random() * videosxxxc.length)];
       await conn.sendMessage(m.chat, { video: { url: url4 }, caption: `${tradutor.texto2} 🥵*` }, { quoted: m });
       break;
-    case 'فيديوليزبيان':
-    case 'فيديوليزبيان':
-    case 'بورنولزبينفيديو':
-    case 'بورنوليزبيانفيديو':
-    case 'بورنولزبيفيديو':
-    case 'بورنوليزبيانفيديو':
-    case 'بورنولسفيديو':
+    case 'فيديو ليزبيان':
+    case '2فيديو ليزبيان':
+    case 'بورنو ليزبين فيديو':
+    case '2بورنو ليزبيان فيديو':
+    case '3بورنو ليزبين فيديو':
+    case '4بورنو ليزبيان فيديو':
+    case '5بورنو ليزبيان فيديو':
       const url5 = await videosxxxc2[Math.floor(Math.random() * videosxxxc2.length)];
       await conn.sendMessage(m.chat, { video: { url: url5 }, caption: `${tradutor.texto2} 🥵*` }, { quoted: m });
       break;
@@ -43,7 +44,7 @@ const handler = async (m, { conn, command, usedPrefix }) => {
 };
 
 // قائمة الأوامر باللغة العربية
-handler.command = /^(باك|باك2|باك3|فيديوxxx|فيديوxxx|فيديوليزبيان|فيديوليزبيان|بورنولزبينفيديو|بورنوليزبيانفيديو|بورنولزبيفيديو|بورنوليزبيانفيديو|بورنولسفيديو)$/i;
+handler.command = /^(باك|باك2|باك3|فيديوxxx|فيديوxxx|فيديو ليزبيان2|فيديو ليزبيان|بورنو لزبين فيديو5|بورنو ليزبيان فيديو4|بورنو ليزبيان فيديو3|بورنو ليزبيان فيديو2|بورنو ليسبيان فيديو)$/i;
 
 export default handler;
 
