@@ -34,10 +34,10 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${tradutor.texto1[0]} 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ${tradutor.texto1[2]}
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🔞 _${usedPrefix}pack_
-┣ ඬ⃟ 🔞 _${usedPrefix}pack2_
-┣ ඬ⃟ 🔞 _${usedPrefix}pack3_
-┣ ඬ⃟ 🔞 _${usedPrefix}videoxxx_
+┣ ඬ⃟ 🔞 _${usedPrefix}باك_
+┣ ඬ⃟ 🔞 _${usedPrefix}باك2_
+┣ ඬ⃟ 🔞 _${usedPrefix}باك3_
+┣ ඬ⃟ 🔞 _${usedPrefix}فيديوxxx_
 ┣ ඬ⃟ 🔞 _${usedPrefix}videolesbixxx_
 ┣ ඬ⃟ 🔞 _${usedPrefix}tetas_
 ┣ ඬ⃟ 🔞 _${usedPrefix}booty_
