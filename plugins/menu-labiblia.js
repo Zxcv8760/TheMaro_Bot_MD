@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 
+await conn.sendMessage(m.chat, { react: { text: '🔞', key: m.key } })
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
