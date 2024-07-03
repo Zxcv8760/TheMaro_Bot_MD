@@ -30,7 +30,7 @@ const handler = async (m, {conn, text, usedPrefix, command, args}) => {
     throw `${tradutor.texto3}`;
   }
 };
-handler.command = /^(hentaipdf)$/i;
+handler.command = /^(هنتاي.pdf)$/i;
 export default handler;
 async function nhentaiScraper(id) {
   const uri = id ? `https://cin.guru/v/${+id}/` : 'https://cin.guru/';

@@ -12,27 +12,28 @@ const handler = async (m, {conn, command, usedPrefix}) => {
   switch (command) {
     case 'pack':
       const url = await pack[Math.floor(Math.random() * pack.length)];
-      conn.sendMessage(m.chat, {image: {url: url}, caption: `_🥵 Pack 🥵_`}, {quoted: m});
+      conn.sendMessage(m.chat, {image: {url: url}, caption: `_🥵 باك 🥵_`}, {quoted: m});
       break;
     case 'pack2':
       const url2 = await packgirl[Math.floor(Math.random() * packgirl.length)];
-      conn.sendMessage(m.chat, {image: {url: url2}, caption: `_🥵 Pack 🥵_`}, {quoted: m});
+      conn.sendMessage(m.chat, {image: {url: url2}, caption: `_🥵 باك2 🥵_`}, {quoted: m});
       break;
     case 'pack3':
       const url3 = await packmen[Math.floor(Math.random() * packmen.length)];
-      conn.sendMessage(m.chat, {image: {url: url3}, caption: `_🥵 Pack 3 🥵_`}, {quoted: m});
+      conn.sendMessage(m.chat, {image: {url: url3}, caption: `_🥵 باك3 🥵_`}, {quoted: m});
       break;
-    case 'videoxxx': case 'vídeoxxx':
+    case 'فيديوxxx':
       const url4 = await videosxxxc[Math.floor(Math.random() * videosxxxc.length)];
       await conn.sendMessage(m.chat, {video: {url: url4}, caption: `${tradutor.texto2} 🥵*`}, {quoted: m});
       break;
-    case 'videoxxxlesbi': case 'videolesbixxx': case 'pornolesbivid': case 'pornolesbianavid': case 'pornolesbiv': case 'pornolesbianav': case 'pornolesv':
+    case 'فيديوxxxلزبيان': case 'فيديوليزبيان': case 'بورنو ليزبيان فيديو': case 'بورنولزبينفيديو': case 'بورنو لس فيديو': case 'بورنو ليزبين فيديو': case 'بورنو ليزبيان فيديو':
       const url5 = await videosxxxc2[Math.floor(Math.random() * videosxxxc2.length)];
       await conn.sendMessage(m.chat, {video: {url: url5}, caption: `${tradutor.texto2} 🥵*`}, {quoted: m});
       break;
   }
 };
-handler.command = /^(pack|pack2|pack3|videoxxx|vídeoxxx|videoxxxlesbi|videolesbixxx|pornolesbivid|pornolesbianavid|pornolesbiv|pornolesbianav|pornolesv)$/i;
+handler.command = /^(باك|باك2|باك3|فيديوxxx|فيديوxxx|فيديوxxxلزبيان|فيديوليزبيان|بورنولزبينفيديو|بورنو ليزبيان فيديو|بورنو ليزبين فيديو|بورنو ليزبيان فيديو|بورنو لس فيديو)$/i;
+```
 export default handler;
 
 global.pack = [
