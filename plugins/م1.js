@@ -1,4 +1,6 @@
 let handler = async (m, { conn, command, text }) => {
+let videoUrl = 'https://telegra.ph/file/84d3d1282e59501fde522.mp4'
+await conn.sendMessage(m.chat, { react: { text: '🗿', key: m.key } })
 let love = `
 *⎔⋅• ┏╼╃✦⊰⟦𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⟧⊱✦╄╾┓ •⋅⎔*
 
