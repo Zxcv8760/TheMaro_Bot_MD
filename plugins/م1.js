@@ -26,7 +26,11 @@ let love = `
 
 *⎔⋅• ┗╼╃✦⊰⟦𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⟧⊱✦╄╾┛ •⋅⎔*
  `.trim()
-m.reply(love, null, { mentions: conn.parseMention(love) })}
+conn.sendMessage(m.chat, {
+        video: { url: videoUrl }, caption: love=`
+  mentions: [m.sender,global.conn.user.jid],
+  gifPlayback: true,gifAttribution: 0
+    }, { quoted: m })}
 handler.help = ['love']
 handler.tags = ['fun']
 handler.command = /^(م١|م1|اوامر الاعضاء|الاوامر الاعضاء)$/i
