@@ -39,13 +39,13 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${tradutor.texto1[0]} 
 ┣ ඬ⃟ 🔞 _${usedPrefix}باك2_
 ┣ ඬ⃟ 🔞 _${usedPrefix}باك3_
 ┣ ඬ⃟ 🔞 _${usedPrefix}فيديوxxx_
-┣ ඬ⃟ 🔞 _${usedPrefix}videolesbixxx_
-┣ ඬ⃟ 🔞 _${usedPrefix}tetas_
-┣ ඬ⃟ 🔞 _${usedPrefix}booty_
-┣ ඬ⃟ 🔞 _${usedPrefix}ecchi_
-┣ ඬ⃟ 🔞 _${usedPrefix}furro_
-┣ ඬ⃟ 🔞 _${usedPrefix}imagenlesbians_
-┣ ඬ⃟ 🔞 _${usedPrefix}panties_
+┣ ඬ⃟ 🔞 _${usedPrefix}فيديو ليزبيان_
+┣ ඬ⃟ 🔞 _${usedPrefix}فيديو ليزبيان2_
+┣ ඬ⃟ 🔞 _${usedPrefix}بورنو ليزبيان فيديو_
+┣ ඬ⃟ 🔞 _${usedPrefix}بورنو ليزبيان فيديو2_
+┣ ඬ⃟ 🔞 _${usedPrefix}بورنو ليزبيان فيديو3_
+┣ ඬ⃟ 🔞 _${usedPrefix}بورنو ليزبيان فيديو4_
+┣ ඬ⃟ 🔞 _${usedPrefix}بورنو ليزبيان فيديو5_
 ┣ ඬ⃟ 🔞 _${usedPrefix}pene_
 ┣ ඬ⃟ 🔞 _${usedPrefix}porno_
 ┣ ඬ⃟ 🔞 _${usedPrefix}randomxxx_
