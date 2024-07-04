@@ -8,7 +8,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
-        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/b63528315a84c3205ed98.jpg'}}, { upload: conn.waUploadToServer })
+        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/00fb432d16b3c9cbaa8b2.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: ``.trim() },
             footer: { text: `*𝙏𝙝𝙚𝙈𝙫𝙧𝙤-𝘽𝙤𝙩*`.trim() },  
