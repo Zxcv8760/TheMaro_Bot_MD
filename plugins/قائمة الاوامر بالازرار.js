@@ -2,7 +2,7 @@
 //https://whatsapp.com/channel/0029Vab5oDNElagpHtJjmT0B
 
 import { prepareWAMessageMedia, generateWAMessageFromContent, getDevice } from '@whiskeysockets/baileys'
-
+await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } })
 const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const device = await getDevice(m.key.id);
     const mentionId = m.key.participant || m.key.remoteJid;
