@@ -1,12 +1,12 @@
 //Copyright ©JOANIMI/KILLUA
 //https://whatsapp.com/channel/0029Vab5oDNElagpHtJjmT0B
-await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } })
+
 import { prepareWAMessageMedia, generateWAMessageFromContent, getDevice } from '@whiskeysockets/baileys'
 
 const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const device = await getDevice(m.key.id);
     const mentionId = m.key.participant || m.key.remoteJid;
-
+await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } })
     if (device !== 'desktop' || device !== 'web') {      
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/00fb432d16b3c9cbaa8b2.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
