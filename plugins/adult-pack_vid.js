@@ -32,11 +32,11 @@ await conn.sendMessage(m.chat, { react: { text: '🔞', key: m.key } })
       break;
     case 'فيديو ليزبيان':
     case '2فيديو ليزبيان':
-    case 'بورنو ليزبيان فيديو':
-    case '2بورنو ليزبيان فيديو':
-    case '3بورنو ليزبين فيديو':
-    case '4بورنو ليزبيان فيديو':
-    case '5بورنو ليزبيان فيديو':
+    case 'بورنو-ليزبيان-فيديو':
+    case '2بورنو-ليزبيان-فيديو':
+    case '3بورنو-ليزبيان-فيديو':
+    case '4بورنو-ليزبيان-فيديو':
+    case '5بورنو-ليزبيان-فيديو':
       const url5 = await videosxxxc2[Math.floor(Math.random() * videosxxxc2.length)];
       await conn.sendMessage(m.chat, { video: { url: url5 }, caption: `${tradutor.texto2} 🥵*` }, { quoted: m });
       break;
@@ -44,7 +44,7 @@ await conn.sendMessage(m.chat, { react: { text: '🔞', key: m.key } })
 };
 
 // قائمة الأوامر باللغة العربية
-handler.command = /^(باك|باك2|باك3|فيديوxxx|فيديوxxx|فيديو ليزبيان2|فيديو ليزبيان|بورنو ليزبيان فيديو5|بورنو ليزبيان فيديو4|بورنو ليزبيان فيديو3|بورنو ليزبيان فيديو2|بورنو ليزبيان فيديو)$/i;
+handler.command = /^(باك|باك2|باك3|فيديوxxx|فيديوxxx|فيديوليزبيان2|فيديوليزبيان|بورنو-ليزبيان-فيديو5|بورنو-ليزبيان-فيديو4|بورنو-ليزبيان-فيديو3|بورنو-ليزبيان-فيديو2|بورنو-ليزبيان-فيديو)$/i;
 
 export default handler;
 
